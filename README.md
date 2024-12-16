@@ -1,0 +1,1 @@
+This example demonstrates an uncommon error in PHP related to variable scope.  The variable `$b` is declared inside an `if` block. Attempting to access `$b` outside this block leads to an undefined variable notice.  The solution involves ensuring that variables are declared in the appropriate scope.
